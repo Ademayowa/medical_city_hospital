@@ -18,7 +18,7 @@ const Visits = () => {
           </p>
           <p>
             <i className="fa fa-check" />
-            No second injections or temporaries
+            No second injections
           </p>
           <button className="btn btn-info btn-lg">ReadMore</button>
         </div>
