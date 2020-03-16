@@ -26,7 +26,7 @@ nav {
 }
 .wrapper {
   background: url('./img/slider.png') no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
 .wrapper-opacity {
   background-color: rgba(4, 12, 32, 0.8);
