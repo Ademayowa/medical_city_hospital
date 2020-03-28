@@ -1,24 +1,23 @@
-import React, { Component } from 'react';
-import WelcomeBackground from './WelcomeBackground';
-import Information from './Information';
-import OurServices from './OurServices';
-import Visits from './Visits';
-import Appointment from './Appointment';
-import Testimonials from './Testimonials';
+import React, { Fragment } from 'react';
+import Hero from './Hero';
+// import Information from './Information';
+// import OurServices from './OurServices';
+// import Visits from './Visits';
+// import Appointment from './Appointment';
+// import Testimonials from './Testimonials';
+import Banner from './Banner';
 
-class Home extends Component {
-  render() {
-    return (
-      <div>
-        <WelcomeBackground />
-        <Information />
-        <OurServices />
-        <Visits />
-        <Appointment />
-        <Testimonials />
-      </div>
-    );
-  }
-}
+const Home = () => {
+  return (
+    <Fragment>
+      <Hero>
+        <Banner
+          title='city health care services'
+          subtitle='treating patients with right euipments'
+        ></Banner>
+      </Hero>
+    </Fragment>
+  );
+};
 
 export default Home;

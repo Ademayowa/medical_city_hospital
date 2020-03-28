@@ -1,20 +1,7 @@
 :root {
   --white-color: #fff;
-  --border-radius: 0;
-  --black-color: #000;
-  --glyphicons-color: #35aec1;
-  --before-footer-color: #2c3b5a;
-  --footer-color: #24324f;
-  --font-size: 50px;
-  --padding: 20px 15px;
-  --padding-all-section: 80px 15px;
-  --contact-right-info-margin: -15px 0px 25px 60px;
-  --btn-info: 0;
-  --font-weight: 300;
-  --margin-top: 0;
-}
-body {
-  font-size: 16px;
+  --color: #37cfa2;
+  --orange-color: #ff6633;
 }
 
 /* Home section */
@@ -24,30 +11,29 @@ nav {
 .btn {
   border-radius: var(--border-radius);
 }
-.wrapper {
-  background: url('./img/slider.png') no-repeat;
-  background-size: contain;
+
+/* Hero */
+.defaultHero {
+  background: url('./img/slider.png') center / cover no-repeat;
 }
-.wrapper-opacity {
-  background-color: rgba(4, 12, 32, 0.8);
-  padding-bottom: 100px;
-  text-align: center;
-}
-.wrapper .white-text {
+
+.banner {
+  background: rgba(4, 12, 32, 0.85);
   color: var(--white-color);
-  padding-top: 140px;
-  margin-left: 50px;
-  line-height: 80px;
+  padding: 100px;
 }
-.wrapper h4 {
+
+.banner h1 {
+  font-size: 70px;
   color: var(--white-color);
-  margin-left: 50px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
 }
-.wrapper-opacity .btn-outline-info {
-  border-radius: var(--border-radius);
-  margin-left: 50px;
-  border: 2px solid var(--white-color);
+
+.banner p {
+  font-size: 30px;
   color: var(--white-color);
+  margin-bottom: 30px;
 }
 nav .nav-link {
   text-transform: uppercase;
@@ -58,17 +44,22 @@ nav .nav-link {
   display: inline-block;
 }
 
-/* Breadcrumb section */
+.banner h1,
+.banner p {
+  line-height: 1.1;
+}
+
+/* Breadcrumb section
 .breadcrumb {
   border-radius: var(--border-radius);
   margin-top: -47px;
   padding: 80px;
   background-color: rgba(4, 12, 32, 0.85);
-}
-.breadcrumb-img {
+} */
+/* .breadcrumb-img {
   background: url('./img/slider.png');
-}
-.emergency,
+} */
+/* .emergency,
 .time-table,
 .opening-hours {
   background-color: #97bdff;
@@ -91,8 +82,8 @@ nav .nav-link {
 .services-home p {
   padding-bottom: 20px;
   margin-top: -10px;
-}
-h3 {
+} */
+/* h3 {
   color: var(--black-color);
 }
 h2,
@@ -102,10 +93,10 @@ h4 {
 }
 h2 {
   text-align: center;
-}
+} */
 
 /* Our services section */
-.card {
+/* .card {
   box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
   margin-bottom: 30px;
 }
@@ -136,23 +127,23 @@ h2 {
   padding: 30px;
   color: var(--footer-color);
   font-size: 4em !important;
-}
+} */
 
 /* Multiple visits section */
-.fa-check {
+/* .fa-check {
   margin-right: 15px;
   color: var(--glyphicons-color);
-}
-.multilpe-visit-img {
+} */
+/* .multilpe-visit-img {
   background: url('./img/slider.png') no-repeat fixed;
   background-size: cover;
-}
-.visit-img-opacity {
+} */
+/* .visit-img-opacity {
   background-color: rgba(4, 12, 32, 0.9);
   padding-bottom: 80px;
   background-size: contain;
-}
-.visit-img-opacity h2 {
+} */
+/* .visit-img-opacity h2 {
   padding: 80px 0px 20px 50px;
   font-weight: var(--font-weight);
   text-align: left !important;
@@ -171,24 +162,24 @@ h2 {
 }
 .appointment-call .btn-info {
   margin-top: -10px;
-}
+} */
 
 /* Testimonial section */
-.patient-testimonials {
+/* .patient-testimonials {
   padding: var(--padding-all-section);
-}
+} */
 
 /* Contact us section */
-.contact-us {
+/* .contact-us {
   padding: var(--padding);
 }
 .contact-us h2 {
   text-align: left !important;
   margin-bottom: 30px;
-}
+} */
 
 /* Before-footer section */
-.footer h5 {
+/* .footer h5 {
   text-transform: uppercase;
   font-weight: var(--font-weight);
   padding-bottom: 15px;
@@ -251,11 +242,11 @@ a:focus {
 }
 .form-control {
   border-radius: var(--border-radius);
-}
+} */
 
-/* Footer section */
-footer {
-  background-color: var(--footer-color);
+/* Footer section
+footer { */
+/* background-color: var(--footer-color);
 }
 .contact {
   margin-bottom: 30px;
@@ -287,4 +278,4 @@ footer {
     display: block !important;
     margin-left: 120px;
   }
-}
+} */

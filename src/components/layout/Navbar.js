@@ -10,48 +10,48 @@ const isActive = (history, path) => {
 const Navbar = ({ history }) => {
   return (
     <div>
-      <nav className="navbar navbar-expand-lg  mb-5 navbar-info">
-        <div className="container">
-          <Link className="navbar-brand" to="/">
-            <img src={Logo} alt="logo" className="img-fluid" />
-            <span className="text-dark m-2">Medical City</span>
+      <nav className='navbar navbar-expand-lg navbar-info'>
+        <div className='container'>
+          <Link className='navbar-brand' to='/'>
+            <img src={Logo} alt='logo' className='img-fluid' />
+            <span className='text-dark m-2'>Medical City</span>
           </Link>
           <button
-            className="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
+            className='navbar-toggler'
+            type='button'
+            data-toggle='collapse'
+            data-target='#navbarSupportedContent'
+            aria-controls='navbarSupportedContent'
+            aria-expanded='false'
+            aria-label='Toggle navigation'
           >
             <span />
-            <span className="navbar-toggler-icon fa fa-bars text-info" />
+            <span className='navbar-toggler-icon fa fa-bars text-info' />
           </button>
-          <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul className="navbar-nav ml-auto">
-              <li className="nav-item">
+          <div className='collapse navbar-collapse' id='navbarSupportedContent'>
+            <ul className='navbar-nav ml-auto'>
+              <li className='nav-item'>
                 <Link
-                  className="nav-link"
-                  to="/"
+                  className='nav-link'
+                  to='/'
                   style={isActive(history, '/')}
                 >
                   Home
                 </Link>
               </li>
-              <li className="nav-item">
+              <li className='nav-item'>
                 <Link
-                  className="nav-link"
-                  to="/services"
+                  className='nav-link'
+                  to='/services'
                   style={isActive(history, '/services')}
                 >
                   Services
                 </Link>
               </li>
-              <li className="nav-item">
+              <li className='nav-item'>
                 <Link
-                  className="nav-link"
-                  to="/contact"
+                  className='nav-link'
+                  to='/contact'
                   style={isActive(history, '/contact')}
                 >
                   Contact
