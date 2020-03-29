@@ -6,6 +6,7 @@ import Hero from './Hero';
 // import Appointment from './Appointment';
 // import Testimonials from './Testimonials';
 import Banner from './Banner';
+import About from './About';
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
           subtitle='treating patients with right euipments'
         ></Banner>
       </Hero>
+      <About />
     </Fragment>
   );
 };

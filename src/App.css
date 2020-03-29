@@ -8,9 +8,6 @@
 nav {
   margin-top: var(--margin-top);
 }
-.btn {
-  border-radius: var(--border-radius);
-}
 
 /* Hero */
 .defaultHero {
@@ -47,6 +44,21 @@ nav .nav-link {
 .banner h1,
 .banner p {
   line-height: 1.1;
+}
+
+.banner .btn-default {
+  /* color: #fff; */
+  background-color: var(--color) !important;
+  font-size: 14px;
+}
+
+.btn-outline-default {
+  font-size: 14px;
+}
+
+/* About */
+.about {
+  padding: 50px 0;
 }
 
 /* Breadcrumb section
