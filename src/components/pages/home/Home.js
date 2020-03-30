@@ -7,6 +7,7 @@ import Hero from './Hero';
 // import Testimonials from './Testimonials';
 import Banner from './Banner';
 import About from './About';
+import Services from '../Services';
 
 const Home = () => {
   return (
@@ -18,6 +19,7 @@ const Home = () => {
         ></Banner>
       </Hero>
       <About />
+      <Services />
     </Fragment>
   );
 };

@@ -2,6 +2,7 @@ import React from 'react';
 import Img1 from '../../../img/img1.png';
 import Img2 from '../../../img/img2.png';
 import Img3 from '../../../img/img3.png';
+import Title from './Title';
 
 const About = () => {
   return (
@@ -32,9 +33,9 @@ const About = () => {
           </div>
 
           <div className='col-lg-7 pl-lg-5 mt-5'>
-            <h2>About</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam,
+            <Title
+              title='about'
+              info='Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam,
               illum. Unde est ut eius id. Exercitationem, blanditiis alias
               velit, odio id, suscipit impedit cupiditate labore laudantium vel
               repellendus autem fugit!Lorem ipsum dolor sit amet consectetur
@@ -48,8 +49,8 @@ const About = () => {
               blanditiis alias velit, odio id, suscipit impedit cupiditate
               labore laudantium vel repellendus autem fugit. repellendus autem
               fugit!Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Ullam, illum. Unde est ut eius id.
-            </p>
+              Ullam, illum. Unde est ut eius id.'
+            />
           </div>
         </div>
       </div>

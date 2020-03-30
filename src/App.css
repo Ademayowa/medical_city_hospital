@@ -11,7 +11,9 @@ nav {
 
 /* Hero */
 .defaultHero {
-  background: url('./img/slider.png') center / cover no-repeat;
+  background: url('./img/hero.png') center / cover no-repeat;
+  align-items: center;
+  justify-content: center;
 }
 
 .banner {
@@ -47,7 +49,6 @@ nav .nav-link {
 }
 
 .banner .btn-default {
-  /* color: #fff; */
   background-color: var(--color) !important;
   font-size: 14px;
 }
@@ -56,238 +57,31 @@ nav .nav-link {
   font-size: 14px;
 }
 
+h2 {
+  color: var(--color);
+  font-size: 40px !important;
+  text-transform: uppercase;
+}
+
 /* About */
 .about {
   padding: 50px 0;
 }
+/* services */
+.services h2 {
+  font-size: 40px;
+}
 
-/* Breadcrumb section
-.breadcrumb {
-  border-radius: var(--border-radius);
-  margin-top: -47px;
-  padding: 80px;
-  background-color: rgba(4, 12, 32, 0.85);
-} */
-/* .breadcrumb-img {
-  background: url('./img/slider.png');
-} */
-/* .emergency,
-.time-table,
-.opening-hours {
-  background-color: #97bdff;
-  padding: 60px;
-  color: var(--white-color);
-}
-.time-table {
-  background-color: #438aff;
-}
-.opening-hours hr {
-  background-color: var(--white-color);
-}
 .services {
-  padding: var(--padding);
+  background-color: #f8f9fa;
+  padding: 80px 0;
 }
-.services-home {
-  padding: var(--padding-all-section);
-  text-align: center;
-}
-.services-home p {
-  padding-bottom: 20px;
-  margin-top: -10px;
-} */
-/* h3 {
-  color: var(--black-color);
-}
-h2,
-h3,
-h4 {
-  font-weight: var(--font-weight) !important;
-}
-h2 {
-  text-align: center;
-} */
 
-/* Our services section */
-/* .card {
-  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
-  margin-bottom: 30px;
+.services p {
+  color: gray;
+  line-height: 1.7;
 }
-.card h4 {
-  padding-bottom: 10px;
-}
-.our-services {
-  padding: var(--padding);
-}
-.fa-briefcase-medical,
-.fa-diagnoses,
-.fa-brain,
-.fa-x-ray,
-.fa-bong,
-.fa-dna,
-.fa-tooth {
-  color: var(--footer-color) !important;
-  border: none;
-  padding: 4px;
-  font-size: 4em;
-}
-.fa-user-md,
-.fa-ambulance,
-.fa-briefcase,
-.fa-stethoscope,
-.fa-heartbeat,
-.fa-eye {
-  padding: 30px;
-  color: var(--footer-color);
-  font-size: 4em !important;
-} */
 
-/* Multiple visits section */
-/* .fa-check {
-  margin-right: 15px;
-  color: var(--glyphicons-color);
-} */
-/* .multilpe-visit-img {
-  background: url('./img/slider.png') no-repeat fixed;
-  background-size: cover;
-} */
-/* .visit-img-opacity {
-  background-color: rgba(4, 12, 32, 0.9);
-  padding-bottom: 80px;
-  background-size: contain;
-} */
-/* .visit-img-opacity h2 {
-  padding: 80px 0px 20px 50px;
-  font-weight: var(--font-weight);
-  text-align: left !important;
+.services-list .contents {
+  margin-left: 60px;
 }
-.visit-img-opacity p {
-  padding: 0px 0px 10px 50px;
-  color: var(--white-color);
-  margin-top: -15px;
-  font-size: 18px;
-}
-.visit-img-opacity button {
-  margin-left: 80px;
-}
-.appointment-call {
-  padding: var(--padding-all-section);
-}
-.appointment-call .btn-info {
-  margin-top: -10px;
-} */
-
-/* Testimonial section */
-/* .patient-testimonials {
-  padding: var(--padding-all-section);
-} */
-
-/* Contact us section */
-/* .contact-us {
-  padding: var(--padding);
-}
-.contact-us h2 {
-  text-align: left !important;
-  margin-bottom: 30px;
-} */
-
-/* Before-footer section */
-/* .footer h5 {
-  text-transform: uppercase;
-  font-weight: var(--font-weight);
-  padding-bottom: 15px;
-}
-.footer {
-  padding: var(--padding-all-section);
-  background-color: var(--before-footer-color);
-}
-.form-row {
-  margin: 0 10px;
-  padding: 15px 5px;
-}
-.contact .address {
-  color: var(--white-color);
-  margin-bottom: 10px;
-}
-.footer .address .phone {
-  line-height: 50px;
-}
-.row h5 {
-  color: var(--white-color);
-  margin-top: 15px;
-}
-.footer .row {
-  padding-top: 15px;
-  line-height: 30px;
-  font-size: 18px;
-  line-height: 34px;
-}
-.nav-link {
-  text-decoration: none !important;
-}
-.links a {
-  text-decoration: none !important;
-}
-a {
-  color: #fff;
-}
-a:hover,
-a:focus {
-  color: var(--glyphicons-color);
-}
-.open-hours p {
-  color: var(--white-color);
-}
-.our-services {
-  padding: var(--padding-all-section);
-}
-.service-content {
-  border: 1px solid var(--glyphicons-color);
-  padding: 35px;
-}
-.footer-icons {
-  color: var(--white-color);
-  margin-top: -10px;
-}
-.service-content {
-  padding: 30px 10px;
-  margin-bottom: 15px;
-}
-.form-control {
-  border-radius: var(--border-radius);
-} */
-
-/* Footer section
-footer { */
-/* background-color: var(--footer-color);
-}
-.contact {
-  margin-bottom: 30px;
-}
-.contact-right-info .contact {
-  background-color: var(--before-footer-color);
-  color: var(--glyphicons-color);
-  padding: 15px 5px;
-}
-.contact-right-info h4 {
-  margin: var(--contact-right-info-margin);
-  color: var(--white-color);
-}
-.contact-right-info h6,
-.contact-right-info p {
-  color: var(--background-color);
-  margin: var(--contact-right-info-margin);
-}
-.contact-right-info span {
-  position: relative;
-  top: 20px;
-  margin-left: 20px;
-}
-.fa-arrow-right {
-  margin-right: 10px;
-}
-@media (max-width: 765px) {
-  .wrapper button {
-    display: block !important;
-    margin-left: 120px;
-  }
-} */
