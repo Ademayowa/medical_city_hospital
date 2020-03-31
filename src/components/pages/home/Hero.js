@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Hero = ({ hero, children }) => {
-  return <header className={hero}>{children}</header>;
+  return <div className={hero}>{children}</div>;
 };
 
 export default Hero;

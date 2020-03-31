@@ -14,7 +14,9 @@ const Navbar = ({ history }) => {
         <div className='container'>
           <Link className='navbar-brand' to='/'>
             <img src={Logo} alt='logo' className='img-fluid' />
-            <span className='text-dark m-2'>Medical City</span>
+            <span style={{ fontSize: '1.5rem' }} className='text-dark m-2'>
+              Medic
+            </span>
           </Link>
           <button
             className='navbar-toggler'

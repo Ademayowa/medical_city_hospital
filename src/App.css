@@ -123,3 +123,17 @@ h2 {
 .slick-prev:before {
   display: none;
 }
+
+/* Footer */
+.footer-banner ul,
+.footer-banner p {
+  font-size: 18px !important;
+  list-style-type: none;
+  line-height: 2.3;
+  padding: 80px 0 0 0;
+  color: var(--white-color);
+}
+
+.footer-banner {
+  background-color: rgba(4, 12, 32, 0.95);
+}

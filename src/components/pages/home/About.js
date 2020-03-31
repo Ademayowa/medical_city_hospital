@@ -1,7 +1,7 @@
 import React from 'react';
-import Img1 from '../../../img/img1.png';
-import Img2 from '../../../img/img2.png';
-import Img3 from '../../../img/img3.png';
+import Img1 from '../../../img/img1.jpg';
+import Img2 from '../../../img/img2.jpg';
+import Img3 from '../../../img/img3.jpg';
 import Title from './Title';
 
 const About = () => {
@@ -12,10 +12,20 @@ const About = () => {
           <div className='col-lg-5'>
             <div className='row'>
               <div className='col-sm-7'>
-                <img src={Img1} alt='' className='img-fluid' />
+                <img
+                  src={Img1}
+                  alt=''
+                  className='img-fluid'
+                  style={{ height: '280px', objectFit: 'cover' }}
+                />
               </div>
               <div className='col-sm-5'>
-                <img src={Img2} alt='' className='img-fluid' />
+                <img
+                  src={Img2}
+                  alt=''
+                  className='img-fluid'
+                  style={{ height: '280px', objectFit: 'cover' }}
+                />
               </div>
               <div className='col-lg-12'>
                 <img

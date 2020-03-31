@@ -4,6 +4,7 @@ import Banner from './Banner';
 import About from './About';
 import Services from './Services';
 import Testimonials from './Testimonials';
+import Footer from '../../layout/Footer';
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
       <About />
       <Services />
       <Testimonials />
+      <Footer />
     </Fragment>
   );
 };
