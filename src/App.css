@@ -2,6 +2,7 @@
   --white-color: #fff;
   --main-color: #37cfa2;
   --orange-color: #ff6633;
+  --section-padding: 80px 0;
 }
 
 /* Home section */
@@ -11,7 +12,7 @@ nav {
 
 /* Hero */
 .defaultHero {
-  background: url('./img/hero.png') center / cover no-repeat;
+  background: url('./img/hero.jpg') center / cover no-repeat;
   align-items: center;
   justify-content: center;
 }
@@ -65,7 +66,7 @@ h2 {
 
 /* About */
 .about {
-  padding: 80px 0;
+  padding: var(--section-padding);
 }
 /* services */
 .services h2 {
@@ -74,7 +75,7 @@ h2 {
 
 .services {
   background-color: #f8f9fa;
-  padding: 80px 0;
+  padding: var(--section-padding);
 }
 
 .services p {
