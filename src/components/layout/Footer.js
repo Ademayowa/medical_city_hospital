@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Logo from '../../img/logo.png';
 import Hero from '../pages/home/Hero';
-import { FaLongArrowAltRight } from 'react-icons/fa';
+import FooterCopyright from './FooterCopyright';
 
 const Footer = () => {
   const [items] = useState([
@@ -39,7 +39,7 @@ const Footer = () => {
       title: 'Contact Us',
 
       contact: [
-        '1 Iju road fagba isgahaga lagos.',
+        '1 Iju road fagba ishaga lagos.',
         <br />,
         '+234 567 098.',
         <br />,
@@ -50,11 +50,11 @@ const Footer = () => {
 
   return (
     <Hero>
-      <div className='banner footer-banner'>
-        <div style={grid} className='pl-md-3'>
+      <footer className='footer-banner'>
+        <div style={gridStyle} className='footer-bg pl-md-3'>
           {items.map((item, index) => (
             <ul key={index}>
-              <li>{item.about}</li>
+              <li className='mt-4'>{item.about}</li>
               <li>
                 <h4>{item.title}</h4>
               </li>
@@ -64,14 +64,14 @@ const Footer = () => {
             </ul>
           ))}
         </div>
-      </div>
+        <FooterCopyright />
+      </footer>
     </Hero>
   );
 };
 
-const grid = {
+const gridStyle = {
   display: 'grid',
-  // gridTemplateColumns: 'repeat(4, 1fr)',
   gridTemplateColumns: 'repeat(auto-fill, minmax(270px, 1fr))',
   listStyleType: 'none',
   gridGap: '1rem'

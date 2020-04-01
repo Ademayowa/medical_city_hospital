@@ -65,7 +65,7 @@ h2 {
 
 /* About */
 .about {
-  padding: 50px 0;
+  padding: 80px 0;
 }
 /* services */
 .services h2 {
@@ -125,15 +125,39 @@ h2 {
 }
 
 /* Footer */
-.footer-banner ul,
-.footer-banner p {
+.footer-banner ul {
   font-size: 18px !important;
   list-style-type: none;
   line-height: 2.3;
-  padding: 80px 0 0 0;
   color: var(--white-color);
 }
 
-.footer-banner {
+.footer-banner li {
+  margin-bottom: 1.5rem;
+}
+
+.footer-banner .footer-bg {
+  background-color: rgba(4, 12, 32, 0.95);
+  padding: 80px 0 10px 0;
+}
+
+@media (max-width: 580px) {
+  .footer-banner ul {
+    margin-bottom: -40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-banner ul {
+    margin-bottom: -30px;
+  }
+}
+
+.copyright {
+  /* padding-top: 20px; */
+  border-top: 1px solid var(--white-color);
+  /* margin: auto; */
+  /* margin-top: -40px; */
+  /* width: 80% !important; */
   background-color: rgba(4, 12, 32, 0.95);
 }

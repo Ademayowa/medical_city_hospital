@@ -1,45 +1,14 @@
 import React from 'react';
 import Img1 from '../../../img/img1.jpg';
-import Img2 from '../../../img/img2.jpg';
-import Img3 from '../../../img/img3.jpg';
-import Title from './Title';
+import Title from '../../pages/home/Title';
 
 const About = () => {
   return (
     <section className='about'>
-      <div className='container mt-5 mb-5'>
+      <div className='container'>
         <div className='row'>
           <div className='col-lg-5'>
-            <div className='row'>
-              <div className='col-sm-7'>
-                <img
-                  src={Img1}
-                  alt=''
-                  className='img-fluid'
-                  style={{ height: '280px', objectFit: 'cover' }}
-                />
-              </div>
-              <div className='col-sm-5'>
-                <img
-                  src={Img2}
-                  alt=''
-                  className='img-fluid'
-                  style={{ height: '280px', objectFit: 'cover' }}
-                />
-              </div>
-              <div className='col-lg-12'>
-                <img
-                  src={Img3}
-                  alt=''
-                  className='img-fluid'
-                  style={{
-                    width: '800px',
-                    height: '200px',
-                    objectFit: 'cover'
-                  }}
-                />
-              </div>
-            </div>
+            <img src={Img1} alt='' className='img-fluid' />
           </div>
 
           <div className='col-lg-7 pl-lg-5 mt-5'>

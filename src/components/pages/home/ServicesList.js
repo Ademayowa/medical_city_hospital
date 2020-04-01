@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 const ServicesList = ({ service }) => {
   const { title, info, icon } = service;
@@ -21,6 +22,10 @@ const iconStyle = {
   position: 'relative',
   top: '60px',
   color: '#69D0A2'
+};
+
+ServicesList.propTypes = {
+  service: PropTypes.object.isRequired
 };
 
 export default ServicesList;
