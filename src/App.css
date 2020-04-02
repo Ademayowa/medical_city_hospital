@@ -119,7 +119,7 @@ h2 {
 
 /* Testimonials */
 .testimonials {
-  background: url('./img/testimonials.jpeg') center / cover no-repeat;
+  background: url('./img/blog2.png') center / cover no-repeat fixed;
 }
 
 .testimonial-banner {
