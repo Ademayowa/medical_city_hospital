@@ -61,7 +61,7 @@ const Services = () => {
       </div>
       <div className='container' style={servicesStyle}>
         {services.map(service => (
-          <ServicesList service={service} />
+          <ServicesList key={service.id} service={service} />
         ))}
       </div>
     </section>

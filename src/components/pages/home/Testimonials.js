@@ -17,21 +17,21 @@ const Testimonials = () => {
     {
       id: '1',
       quote: Quote,
-      patient: 'Miss R.O.',
+      patient: 'Mrs. Sarah Jane',
       testimony:
         'Lorem ipsum dolor sit amet consectetur adipisicing elit. A voluptate debitis, obcaecati cumque nostrum eveniet perspiciatis est distinctio inventore non, autem totam sapiente quod aliquid sequi neque repellat! Ab, hic.Lorem ipsum dolor sit amet consectetur adipisicing elit. A voluptate debitis, obcaecati cumque nostrum eveniet perspiciatis est distinctio inventore non, autem totam sapiente quod aliquid'
     },
     {
       id: '2',
       quote: Quote,
-      patient: 'Mr. O.D.',
+      patient: 'Mr. John Doe',
       testimony:
         'Lorem ipsum dolor sit amet consectetur adipisicing elit. A voluptate debitis, obcaecati cumque nostrum eveniet perspiciatis est distinctio inventore non, autem totam sapiente quod aliquid sequi neque repellat! Ab, hic.Lorem ipsum dolor sit amet consectetur adipisicing elit. A voluptate debitis, obcaecati cumque nostrum eveniet perspiciatis est distinctio inventore non, autem totam sapiente quod aliquid'
     },
     {
       id: '3',
       quote: Quote,
-      patient: 'Mr. D.K.',
+      patient: 'Mr. Sam Smith',
       testimony:
         'Lorem ipsum dolor sit amet consectetur adipisicing elit. A voluptate debitis, obcaecati cumque nostrum eveniet perspiciatis est distinctio inventore non, autem totam sapiente quod aliquid sequi neque repellat! Ab, hic.Lorem ipsum dolor sit amet consectetur adipisicing elit. A voluptate debitis, obcaecati cumque nostrum eveniet perspiciatis est distinctio inventore non, autem totam sapiente quod aliquid'
     }

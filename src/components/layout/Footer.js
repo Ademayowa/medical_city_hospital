@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import Logo from '../../img/logo.png';
 import Hero from '../pages/home/Hero';
 import FooterCopyright from './FooterCopyright';
 
@@ -7,9 +6,9 @@ const Footer = () => {
   const [items] = useState([
     {
       id: '1',
+      title: 'About Medic',
       about:
-        ' Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum dolore cumque tempore commodi repellat sit totam consequuntur? Fuga minus ratione aperiam placeat? Tempora, ab! Non repellat.',
-      img: Logo
+        ' We are an health body that connects patients and users with other authorized legal practionals across the globe. We do this via our mobile and web applications.'
     },
     {
       id: '2',
@@ -50,14 +49,14 @@ const Footer = () => {
 
   return (
     <Hero>
-      <footer className='footer-banner'>
+      <div className='footer-banner'>
         <div style={gridStyle} className='footer-bg pl-md-3'>
           {items.map((item, index) => (
             <ul key={index}>
-              <li className='mt-4'>{item.about}</li>
               <li>
                 <h4>{item.title}</h4>
               </li>
+              <li className='mt-4'>{item.about}</li>
               <li> {item.posts}</li>
               <li>{item.services}</li>
               <li>{item.contact}</li>
@@ -65,7 +64,7 @@ const Footer = () => {
           ))}
         </div>
         <FooterCopyright />
-      </footer>
+      </div>
     </Hero>
   );
 };

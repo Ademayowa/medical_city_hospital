@@ -2,7 +2,7 @@ import React from 'react';
 
 const FooterCopyright = () => {
   return (
-    <div className='copyright pt-4 pb-4'>
+    <div className='copyright pt-4 pb-2'>
       <p className='text-center text-white'>
         &copy; 2020. All rights reserved. Developed by {''}
         <a
