@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Slider from 'react-slick';
-import Quote from '../../../img/quote.png';
+import Quote from '../../img/quote.png';
 
 const Testimonials = () => {
   const settings = {
