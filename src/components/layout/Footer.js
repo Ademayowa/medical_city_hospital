@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Hero from '../pages/home/Hero';
+import Hero from '../home/Hero';
 import FooterCopyright from './FooterCopyright';
 
 const Footer = () => {

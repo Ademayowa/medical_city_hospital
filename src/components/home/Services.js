@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import ServicesList from '../../pages/home/ServicesList';
+import ServicesList from './ServicesList';
 import Title from '../home/Title';
 import { FaUserNurse } from 'react-icons/fa';
 import { FaRegCommentDots } from 'react-icons/fa';

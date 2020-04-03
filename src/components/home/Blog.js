@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import Img1 from '../../../img/blog1.png';
-import Img2 from '../../../img/blog2.png';
-import Img3 from '../../../img/blog3.png';
-import Img4 from '../../../img/blog1.png';
+import Img1 from '../../img/blog1.png';
+import Img2 from '../../img/blog2.png';
+import Img3 from '../../img/blog3.png';
+import Img4 from '../../img/blog1.png';
 import BlogList from './BlogList';
 import Title from './Title';
 

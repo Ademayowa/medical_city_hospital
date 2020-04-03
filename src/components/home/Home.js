@@ -4,7 +4,7 @@ import Banner from './Banner';
 import About from './About';
 import Services from './Services';
 import Testimonials from './Testimonials';
-import Footer from '../../layout/Footer';
+import Footer from '../layout/Footer';
 import Blog from './Blog';
 
 const Home = () => {
