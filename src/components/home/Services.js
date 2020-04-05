@@ -15,6 +15,7 @@ const Services = () => {
       icon: <FaUserNurse />,
       title: 'Nursing Center',
       info:
+
         ' Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et exducimus facilis dolor. Adipisci dignissimos iste, esse tempore.'
     },
     {
@@ -22,6 +23,7 @@ const Services = () => {
       icon: <FaDiagnoses />,
       title: 'Critical Care',
       info:
+
         ' Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et exducimus facilis dolor. Adipisci dignissimos iste, esse tempore.'
     },
     {
@@ -29,6 +31,7 @@ const Services = () => {
       icon: <FaRegCommentDots />,
       title: 'Care Advice',
       info:
+
         ' Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et exducimus facilis dolor. Adipisci dignissimos iste, esse tempore.'
     },
     {
@@ -36,24 +39,26 @@ const Services = () => {
       icon: <FaFlask />,
       title: 'Laboratory',
       info:
+
         ' Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et exducimus facilis dolor. Adipisci dignissimos iste, esse tempore.'
+
     },
     {
       id: '5',
       icon: <FaHeartbeat />,
       title: 'Heart Surgery',
       info:
+
         ' Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et exducimus facilis dolor. Adipisci dignissimos iste, esse tempore.'
+
     },
     {
       id: '6',
       icon: <FaMedkit />,
       title: 'Emergency',
       info:
-        ' Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et exducimus facilis dolor. Adipisci dignissimos iste, esse tempore.'
-    }
-  ]);
-
+        ' Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et exducimus facilis dolor. Adipisci dignissimos iste, esse tempore.',
+    },
   return (
     <section className='services'>
       <div className='text-center'>
@@ -71,7 +76,7 @@ const Services = () => {
 const servicesStyle = {
   display: 'grid',
   gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))',
-  marginTop: '-50px'
+  marginTop: '-55px',
 };
 
 export default Services;
