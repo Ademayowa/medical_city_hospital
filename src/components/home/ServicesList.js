@@ -24,8 +24,10 @@ const iconStyle = {
   color: '#69D0A2',
 };
 
+
+
 ServicesList.propTypes = {
-  service: PropTypes.object.isRequired,
+  service: PropTypes.object.isRequired
 };
 
 export default ServicesList;

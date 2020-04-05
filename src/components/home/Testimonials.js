@@ -3,6 +3,7 @@ import Slider from 'react-slick';
 import Quote from '../../img/quote.png';
 
 const Testimonials = () => {
+  // Slider library
   const settings = {
     dots: true,
     infinite: true,
@@ -40,7 +41,7 @@ const Testimonials = () => {
   return (
     <section className='testimonials'>
       <div className='testimonial-banner'>
-        <div className='container col-md-10  m-auto'>
+        <div className='container col-md-10 m-auto'>
           <Slider {...settings}>
             {testimonies.map(item => (
               <div key={item.id}>
