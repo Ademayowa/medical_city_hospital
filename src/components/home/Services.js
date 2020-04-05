@@ -15,43 +15,43 @@ const Services = () => {
       icon: <FaUserNurse />,
       title: 'Nursing Center',
       info:
-        ' Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et exducimus facilis dolor. Adipisci dignissimos iste, esse tempore.'
+        ' Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et exducimus facilis dolor. Adipisci dignissimos iste, esse tempore.',
     },
     {
       id: '2',
       icon: <FaDiagnoses />,
       title: 'Critical Care',
       info:
-        ' Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et exducimus facilis dolor. Adipisci dignissimos iste, esse tempore.'
+        ' Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et exducimus facilis dolor. Adipisci dignissimos iste, esse tempore.',
     },
     {
       id: '3',
       icon: <FaRegCommentDots />,
       title: 'Care Advice',
       info:
-        ' Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et exducimus facilis dolor. Adipisci dignissimos iste, esse tempore.'
+        ' Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et exducimus facilis dolor. Adipisci dignissimos iste, esse tempore.',
     },
     {
       id: '4',
       icon: <FaFlask />,
       title: 'Laboratory',
       info:
-        ' Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et exducimus facilis dolor. Adipisci dignissimos iste, esse tempore.'
+        ' Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et exducimus facilis dolor. Adipisci dignissimos iste, esse tempore.',
     },
     {
       id: '5',
       icon: <FaHeartbeat />,
       title: 'Heart Surgery',
       info:
-        ' Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et exducimus facilis dolor. Adipisci dignissimos iste, esse tempore.'
+        ' Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et exducimus facilis dolor. Adipisci dignissimos iste, esse tempore.',
     },
     {
       id: '6',
       icon: <FaMedkit />,
       title: 'Emergency',
       info:
-        ' Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et exducimus facilis dolor. Adipisci dignissimos iste, esse tempore.'
-    }
+        ' Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et exducimus facilis dolor. Adipisci dignissimos iste, esse tempore.',
+    },
   ]);
 
   return (
@@ -60,7 +60,7 @@ const Services = () => {
         <Title title='services' />
       </div>
       <div className='container' style={servicesStyle}>
-        {services.map(service => (
+        {services.map((service) => (
           <ServicesList key={service.id} service={service} />
         ))}
       </div>
@@ -71,7 +71,7 @@ const Services = () => {
 const servicesStyle = {
   display: 'grid',
   gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))',
-  marginTop: '-50px'
+  marginTop: '-55px',
 };
 
 export default Services;
