@@ -52,7 +52,7 @@ const Footer = () => {
       <div className='footer-banner'>
         <div style={gridStyle} className='footer-bg pl-md-3'>
           {items.map((item, index) => (
-            <ul key={index} className='mt-3 mb-2'>
+            <ul key={index}>
               <li>
                 <h4>{item.title}</h4>
               </li>
