@@ -13,10 +13,6 @@ const Banner = ({ title, subtitle }) => {
               about
             </Link>
             <Link to='#' className='btn btn-outline-white mb-2'>
-            <Link to='#' className='btn btn-default mr-2'>
-              about
-            </Link>
-            <Link to='#' className='btn btn-outline-white'>
               services
             </Link>
           </div>
