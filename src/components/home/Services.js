@@ -15,42 +15,35 @@ const Services = () => {
       icon: <FaUserNurse />,
       title: 'Nursing Center',
       info:
-
-        ' Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et exducimus facilis dolor. Adipisci dignissimos iste, esse tempore.'
+        ' Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et exducimus facilis dolor. Adipisci dignissimos iste, esse tempore.',
     },
     {
       id: '2',
       icon: <FaDiagnoses />,
       title: 'Critical Care',
       info:
-
-        ' Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et exducimus facilis dolor. Adipisci dignissimos iste, esse tempore.'
+        ' Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et exducimus facilis dolor. Adipisci dignissimos iste, esse tempore.',
     },
     {
       id: '3',
       icon: <FaRegCommentDots />,
       title: 'Care Advice',
       info:
-
-        ' Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et exducimus facilis dolor. Adipisci dignissimos iste, esse tempore.'
+        ' Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et exducimus facilis dolor. Adipisci dignissimos iste, esse tempore.',
     },
     {
       id: '4',
       icon: <FaFlask />,
       title: 'Laboratory',
       info:
-
-        ' Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et exducimus facilis dolor. Adipisci dignissimos iste, esse tempore.'
-
+        ' Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et exducimus facilis dolor. Adipisci dignissimos iste, esse tempore.',
     },
     {
       id: '5',
       icon: <FaHeartbeat />,
       title: 'Heart Surgery',
       info:
-
-        ' Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et exducimus facilis dolor. Adipisci dignissimos iste, esse tempore.'
-
+        ' Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et exducimus facilis dolor. Adipisci dignissimos iste, esse tempore.',
     },
     {
       id: '6',
@@ -59,13 +52,15 @@ const Services = () => {
       info:
         ' Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et exducimus facilis dolor. Adipisci dignissimos iste, esse tempore.',
     },
+  ]);
+
   return (
     <section className='services'>
       <div className='text-center'>
         <Title title='services' />
       </div>
       <div className='container' style={servicesStyle}>
-        {services.map(service => (
+        {services.map((service) => (
           <ServicesList key={service.id} service={service} />
         ))}
       </div>
