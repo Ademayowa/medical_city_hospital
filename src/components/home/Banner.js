@@ -9,6 +9,10 @@ const Banner = ({ title, subtitle }) => {
           <div className='col-md-7 text-left ml-auto'>
             <h1>{title}</h1>
             <p>{subtitle}</p>
+            <Link to='#' className='btn btn-default mr-2 mb-2'>
+              about
+            </Link>
+            <Link to='#' className='btn btn-outline-white mb-2'>
             <Link to='#' className='btn btn-default mr-2'>
               about
             </Link>
