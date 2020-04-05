@@ -21,11 +21,11 @@ const iconStyle = {
   fontSize: '2.5rem',
   position: 'relative',
   top: '60px',
-  color: '#69D0A2'
+  color: '#69D0A2',
 };
 
 ServicesList.propTypes = {
-  service: PropTypes.object.isRequired
+  service: PropTypes.object.isRequired,
 };
 
 export default ServicesList;

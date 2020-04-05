@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Hero from '../pages/home/Hero';
+import Hero from '../home/Hero';
 import FooterCopyright from './FooterCopyright';
 
 const Footer = () => {
@@ -8,7 +8,7 @@ const Footer = () => {
       id: '1',
       title: 'About Medic',
       about:
-        ' We are an health body that connects patients and users with other authorized legal practionals across the globe. We do this via our mobile and web applications.'
+        ' We are an health body that connects patients and users with other authorized legal practionals across the globe. We do this via our mobile and web applications.',
     },
     {
       id: '2',
@@ -18,8 +18,8 @@ const Footer = () => {
         <br />,
         'Eating fruits and vegetables is good for a healthy living.',
         <br />,
-        'The importance of water in the body system.'
-      ]
+        'The importance of water in the body system.',
+      ],
     },
     {
       id: '3',
@@ -30,8 +30,8 @@ const Footer = () => {
         <br />,
         'Emergency operations.',
         <br />,
-        'Stanby ambulance for pregnant women.'
-      ]
+        'Stanby ambulance for pregnant women.',
+      ],
     },
     {
       id: '4',
@@ -42,9 +42,9 @@ const Footer = () => {
         <br />,
         '+234 567 098.',
         <br />,
-        'www.medic.com'
-      ]
-    }
+        'www.medic.com',
+      ],
+    },
   ]);
 
   return (
@@ -52,11 +52,11 @@ const Footer = () => {
       <div className='footer-banner'>
         <div style={gridStyle} className='footer-bg pl-md-3'>
           {items.map((item, index) => (
-            <ul key={index}>
+            <ul key={index} className='mt-3 mb-2'>
               <li>
                 <h4>{item.title}</h4>
               </li>
-              <li className='mt-4'>{item.about}</li>
+              <li>{item.about}</li>
               <li> {item.posts}</li>
               <li>{item.services}</li>
               <li>{item.contact}</li>
@@ -73,7 +73,7 @@ const gridStyle = {
   display: 'grid',
   gridTemplateColumns: 'repeat(auto-fill, minmax(270px, 1fr))',
   listStyleType: 'none',
-  gridGap: '1rem'
+  gridGap: '1rem',
 };
 
 export default Footer;
